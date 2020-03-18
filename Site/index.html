@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		  <!-- Ionicons -->
+		  <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+		  <!-- Bootstrap -->
+		  <link rel="stylesheet" href="css/bootstrap/css/bootstrap.min.css">
+		  <link rel="stylesheet" href="css/bootstrap/css/bootstrap-grid.min.css">
+		  <link rel="stylesheet" href="css/bootstrap/css/bootstrap-reboot.min.css">
+		  <script src="css/bootstrap/js/bootstrap.min.js"></script>
+		  
+		  <!-- Custom styles for this template -->
+			<link href="css/index.css" rel="stylesheet">
+		  
+		  <!-- Google Font: Source Sans Pro -->
+		  <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,400i,700" rel="stylesheet">
+	</head>
+	<body>
+	<!--Navbar -> ecrire le nom du site + voir si met autre chose-->
+	<nav class="navbar navbar-dark fixed-top bg-dark flex-md-nowrap p-0 shadow">
+	  <a class="navbar-brand col-sm-3 col-md-2 mr-0" href="index.html">ECRIMWA</a>
+	</nav>
+	
+	<!--Main sidebar -->
+	
+	<div class="container-fluid">
+	  <div class="row">
+		<nav class="col-md-2 d-none d-md-block bg-light sidebar">
+		  <div class="sidebar-sticky">
+			<ul class="nav flex-column">
+			  <li class="nav-item">
+				<a class="nav-link active" href="index.html">
+				  <span data-feather="home"></span>
+				  Profil <span class="sr-only">(current)</span>
+				</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="visualisation.html">
+				  <span data-feather="file"></span>
+				  Visualisation
+				</a>
+			  </li>
+			  <li class="nav-item">
+				<a class="nav-link" href="a_propos.html">
+				  <span data-feather="file"></span>
+				  A propos
+				</a>
+			  </li>
+			</ul>
+		  </div>
+		</nav>
+		
+		<main role="main" class="col-md-9 ml-sm-auto col-lg-10 px-4">
+			<div class="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+				<h1 class="h2">Ecris moi un sms je te dirais qui tu es</h1>
+			</div>
+			<div class="row">
+				<div class="col-md-6">
+					<div class="card card-info">
+						<div class="card-header">
+							<h3 class="card-title">Votre sms</h3>
+						</div>
+						<!--Formulaire pour le input du texte à saisir-->
+						<form class="form-horizontal AVAST_PAM_nonloginform" role="form">
+						<div class="card-body">
+							<div class="form-group row">
+								<label class="col-sm-2 col-form-label" for="inputSMS">SMS</label> <!--Ou mettre un avatar gris-->
+								<div class="col-sm-10">
+									<input id="inputSMS" class="form-control" type="sms" placeholder="Votre message ..."></input>
+								</div>
+							</div>
+						</div>
+							
+						</form>
+					</div>
+				</div>
+				<div class="col-md-6">
+					<div class="card bg-light">
+						<div class=" card-header text-muted border-bottom-0 ::after"><b>Votre profil</b></div>
+						<div class=" card-body pt-0 ::after">
+							<div class="row">
+								<div class="col-7">
+									<p></p>
+									<p class="text-muted text-sm"> Je suis ... (%)</p>
+									<p class="text-muted text-sm"> J'ai entre .. et .. ans (%)</p>
+									<p class="text-muted text-sm"> J'éxerce ... (%)</p>
+								</div>
+								<div class="col-5 text-center">
+									<img class="img-circle img-fluid" src="avatarF.png" alt"avatar">
+								</div>
+							</div>
+						</div>
+						<div class="card-footer">
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+	  </div>
+	</div>
+	<!-- /.sidebar-menu -->
+		
+	</body>
+	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+      <script>window.jQuery || document.write('<script src="/docs/4.4/assets/js/vendor/jquery.slim.min.js"><\/script>')</script><script src="/docs/4.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-6khuMg9gaYr5AxOqhkVIODVIvm9ynTT5J4V1cfthmT+emCG6yVmEZsRHdxlotUnm" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/feather-icons/4.9.0/feather.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script>
+</html>
